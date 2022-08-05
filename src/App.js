@@ -1,7 +1,14 @@
+import Login from "./pages/Login/Login";
+import { Routes, Route } from 'react-router-dom'
+import Header from "./pages/Includes/Header";
+
 function App() {
   return (
-  <div className="">
-    <h1 className='text-green-800'>Hello</h1>
+  <div className="w-screen min-h-screen">
+    <Header />
+    <Routes>
+      <Route path='/' element={ <Login /> }></Route>
+    </Routes>
   </div>
   );
 }
