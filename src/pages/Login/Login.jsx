@@ -28,7 +28,7 @@ function Login() {
                             </div>
                         </div>
                         <div className='w-full my-6 flex items-center justify-center'>
-                            <button className='w-full p-2 rounded-md text-black border-2 border-black hover:bg-black hover:bg-opacity-90 hover:text-white ease-linear duration-150'>LOGIN</button>
+                            <button className='w-full p-2 rounded-md text-black border-2 border-black hover:bg-black hover:bg-opacity-90 hover:text-white ease-linear duration-150 hover:scale-105'>LOGIN</button>
                         </div>
                         <div className='w-full flex flex-col items-center justify-center'>
                             <p className='w-full flex items-center justify-center text-xs mb-6 before:w-20 before:border-slate-600 before:border-b before:-ml-28 before:mt-1  before:absolute
