@@ -4,8 +4,8 @@ function Login() {
     return (
         <div className='min-h-screen'>
             <div className='w-full h-auto flex items-center justify-center'>
-                <div className='w-80 md:w-96 h-auto mt-20 pb-4 flex flex-col bg-white text-black text-opacity-90 rounded-md shadow-xl'>
-                    <div className='h-16 mb-4 flex items-center justify-center bg-black bg-opacity-90 text-white rounded-t-md'>
+                <div className='w-80 md:w-96 h-auto mt-20 pb-4 flex flex-col border-8 bg-white text-black text-opacity-90 rounded-md shadow-xl'>
+                    <div className='h-16 mb-4 flex items-center justify-center bg-secondary text-bg rounded-t-md'>
                         <h1 className='font-bold text-lg'>ACCOUNT LOGIN</h1>
                     </div>
                     <form action="" className='w-full flex flex-col  py-2 px-8'>
@@ -28,7 +28,7 @@ function Login() {
                             </div>
                         </div>
                         <div className='w-full my-6 flex items-center justify-center'>
-                            <button className='w-full p-2 rounded-md text-black border border-black hover:bg-black hover:bg-opacity-90 hover:text-white ease-linear duration-150 hover:scale-105'>LOGIN</button>
+                            <button className='w-full p-2 rounded-md text-black border border-secondary hover:bg-secondary  hover:text-white ease-linear duration-150 hover:scale-105'>LOGIN</button>
                         </div>
                         <div className='w-full flex flex-col items-center justify-center'>
                             <p className='w-full flex items-center justify-center text-xs mb-6 before:w-20 before:border-slate-600 before:border-b before:-ml-28 before:mt-1  before:absolute
