@@ -4,7 +4,7 @@ function Login() {
     return (
         <div className='min-h-screen'>
             <div className='w-full h-auto flex items-center justify-center'>
-                <div className='w-80 h-auto mt-20 pb-4 flex flex-col bg-white text-black text-opacity-90 rounded-md shadow-xl'>
+                <div className='w-80 md:w-96 h-auto mt-20 pb-4 flex flex-col bg-white text-black text-opacity-90 rounded-md shadow-xl'>
                     <div className='h-16 mb-4 flex items-center justify-center bg-black bg-opacity-90 text-white rounded-t-md'>
                         <h1 className='font-bold text-lg'>ACCOUNT LOGIN</h1>
                     </div>
@@ -34,7 +34,7 @@ function Login() {
                             <p className='w-full flex items-center justify-center text-xs mb-6 before:w-20 before:border-slate-600 before:border-b before:-ml-28 before:mt-1  before:absolute
                             after:w-20 after:border-slate-600 after:border-b after:ml-28 after:mt-1  after:absolute
                             '>or</p>
-                            <a href="" className='text-xs border-b border-b-transparent hover:border-b hover:border-b-slate-600 hover:scale-110'>Sign up</a>
+                            <a href="/" className='text-xs border-b border-b-transparent hover:border-b hover:border-b-slate-600 hover:scale-110'>Sign up</a>
                         </div>
                     </form>
                 </div>
