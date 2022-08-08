@@ -1,42 +1,39 @@
 import React from 'react'
+import Footer from '../Includes/Footer'
 
 function Login() {
     return (
         <div className='min-h-screen'>
-            <div className='w-full h-auto flex items-center justify-center'>
-                <div className='w-80 md:w-96 h-auto mt-20 pb-4 flex flex-col border-8  bg-white text-black text-opacity-90 rounded-md shadow-xl'>
-                    <div className='h-16 mb-4 flex items-center justify-center bg-secondary text-bg rounded-t-md'>
-                        <h1 className='font-bold text-lg'>ACCOUNT LOGIN</h1>
+            <div className='w-full h-auto flex'>
+                <div className='w-2/5 h-screen bg-secondary'>
+
+                </div>
+                <div className='w-3/5 flex flex-col'><div className='w-full h-full xl:px-64 md:px-16 px-4 flex flex-col items-center justify-center'>
+                        <div className='w-full flex flex-col mb-10'>
+                            <h1 className='text-2xl font-bold mb-2' >Login</h1>
+                            <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <form action='' className='w-full flex flex-col'>
+                            <div className='flex flex-col mb-4'>
+                                <label htmlFor="username" className='mb-2 after:content-["*"] after:text-pink-800 font-semibold'>Username</label>
+                                <input type="text" name="username" id="" className='h-12 p-4 border border-slate-300 rounded-full text-sm shadow-md' placeholder='yourname@email.com' />
+                            </div>
+                             <div className='flex flex-col mb-8'>
+                                <label htmlFor="password" className='mb-2 after:content-["*"] after:text-pink-800 font-semibold'>Password</label>
+                                <input type="password" name="password" id="" className='h-12 p-4 border border-slate-300 rounded-full text-sm shadow-md' placeholder='Min. 6 characters' />
+                            </div>
+                            <div className='flex flex-col mb-8'>
+                                <input type="submit" value="Login" className='bg-secondary hover:bg-primary ease-in-out duration-200 hover:scale-105 text-white p-3 rounded-full font-semibold cursor-pointer' />
+                            </div>
+                        </form>
+                        <div className='flex w-full items-center'>
+                            <h3 className='text-sm'>Not registered yet?</h3>
+                            <a href="/" className='text-sm ml-2 font-semibold text-primary hover:underline'>Create an account</a>
+                        </div>
                     </div>
-                    <form action="" className='w-full flex flex-col  py-2 px-8'>
-                        <div className='flex flex-col mb-4'>
-                            <label htmlFor="password">Username</label>
-                            <div className='flex flex-col justify-center static'>
-                                <input type="text" name="username" id="" className='h-10 py-4 px-8 border-b border-black border-opacity-40 mt-1 text-sm' placeholder='Type your username' />
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute text-gray-500 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div className='flex flex-col'>
-                            <label htmlFor="password">Password</label>
-                            <div className='flex flex-col justify-center static'>
-                                <input type="password" name="password" id="" className='h-10 py-4 px-8 border-b border-black border-opacity-40 mt-1 text-sm' placeholder='Type your password' />
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute text-gray-500 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                                </svg>
-                            </div>
-                        </div>
-                        <div className='w-full my-6 flex items-center justify-center'>
-                            <button className='w-full p-2 rounded-md text-black border border-secondary hover:bg-secondary  hover:text-white ease-linear duration-150 hover:scale-105'>LOGIN</button>
-                        </div>
-                        <div className='w-full flex flex-col items-center justify-center'>
-                            <p className='w-full flex items-center justify-center text-xs mb-6 before:w-20 before:border-slate-600 before:border-b before:-ml-28 before:mt-1  before:absolute
-                            after:w-20 after:border-slate-600 after:border-b after:ml-28 after:mt-1  after:absolute
-                            '>or</p>
-                            <a href="/" className='text-xs border-b border-b-transparent hover:border-b hover:border-b-slate-600 hover:scale-110'>Sign up</a>
-                        </div>
-                    </form>
+                    <div className='flex'>
+                        <Footer />
+                    </div>
                 </div>
             </div>
         </div>
