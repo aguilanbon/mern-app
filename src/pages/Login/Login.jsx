@@ -4,7 +4,7 @@ function Login() {
     return (
         <div className='min-h-screen'>
             <div className='w-full h-auto flex items-center justify-center'>
-                <div className='w-80 md:w-96 h-auto mt-20 pb-4 flex flex-col border-8 bg-white text-black text-opacity-90 rounded-md shadow-xl'>
+                <div className='w-80 md:w-96 h-auto mt-20 pb-4 flex flex-col border-8  bg-white text-black text-opacity-90 rounded-md shadow-xl'>
                     <div className='h-16 mb-4 flex items-center justify-center bg-secondary text-bg rounded-t-md'>
                         <h1 className='font-bold text-lg'>ACCOUNT LOGIN</h1>
                     </div>
