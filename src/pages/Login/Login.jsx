@@ -8,7 +8,8 @@ function Login() {
                 <div className='w-2/5 h-screen bg-primary'>
 
                 </div>
-                <div className='w-3/5 flex flex-col'><div className='w-full h-full xl:px-64 md:px-16 px-4 flex flex-col items-center justify-center'>
+                <div className='w-3/5 flex flex-col'>
+                    <div className='w-full h-full xl:px-72 md:px-16 px-4 flex flex-col items-center justify-center'>
                         <div className='w-full flex flex-col mb-10'>
                             <h1 className='text-2xl font-bold mb-2' >Login</h1>
                             <p className='text-sm italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
