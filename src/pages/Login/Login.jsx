@@ -24,7 +24,7 @@ function Login() {
                                 <input type="password" name="password" id="" className='h-12 p-4 border border-slate-300 rounded-full text-sm shadow-md' placeholder='Min. 6 characters' />
                             </div>
                             <div className='flex flex-col mb-8'>
-                                <input type="submit" value="Login" className='bg-secondary hover:bg-primary ease-in-out duration-200 hover:scale-105 text-white p-3 rounded-full font-semibold cursor-pointer' />
+                                <input type="submit" value="Login" className='bg-primary hover:bg-secondary ease-in-out duration-200 hover:scale-105 text-white p-3 rounded-full font-semibold cursor-pointer' />
                             </div>
                         </form>
                         <div className='flex w-full items-center'>
