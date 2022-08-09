@@ -3,16 +3,22 @@ import Links from './Links'
 
 function Navigation() {
   return (
-    <div className='md:w-60 bg-primary'>
+    <div className='md:w-60 bg-primary flex'>
         <div className='w-full flex-flex-col'>
-            <div className='w-full h-auto flex items-center justify-center mt-4'>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 fill-secondary" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clipRule="evenodd" />
-                </svg>
-                <h1 className='text-white ml-2 font-bold'>PS-APP</h1>
+            <div className='w-full h-auto flex flex-col items-center justify-center mt-4'>
+                <div className='mb-2'>
+                    <img src="./aloy.jpg" alt="" className='h-10 w-10 object-cover rounded-full border-2 border-green-200' />
+                </div>
+                <div className='flex items-center justify-center'>
+                    <h2 className='text-white text-sm font-bold'>Aloy Zero</h2>
+                    <p className='ml-2 text-sm text-gray-400 before:content-["|"] before:w-1 before:h-2 before:mr-2'>Admin</p>
+                </div>
             </div>
             <div className='w-full h-auto flex'>
                 <Links />
+            </div>
+            <div className='h-auto flex pl-20'>
+                <button>Log Out</button>
             </div>
         </div>
     </div>
