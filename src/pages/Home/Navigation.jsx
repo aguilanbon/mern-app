@@ -3,7 +3,7 @@ import Links from './Links'
 
 function Navigation() {
   return (
-    <div className='md:w-60 bg-primary flex'>
+    <div className='md:w-72 bg-primary flex'>
         <div className='w-full flex flex-col'>
             <div className='w-full h-auto flex flex-col items-center justify-center mt-4'>
                 <div className='mb-2'>
@@ -11,7 +11,7 @@ function Navigation() {
                 </div>
                 <div className='flex items-center justify-center'>
                     <h2 className='text-white text-sm font-bold'>Aloy Zero</h2>
-                    <p className='ml-2 text-sm text-gray-400 before:content-["|"] before:w-1 before:h-2 before:mr-2'>Admin</p>
+                    <p className='ml-2 text-sm flex text-gray-400 before:content-["|"] before:w-1 before:h-2 before:mr-2'>Admin</p>
                 </div>
             </div>
             <div className='h-full flex flex-col justify-between'>
