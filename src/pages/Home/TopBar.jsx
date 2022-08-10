@@ -2,7 +2,7 @@ import React from 'react'
 
 function TopBar() {
   return (
-    <div className='w-full h-12'>
+    <div className='w-full h-12 mb-4'>
         <div className='w-full h-full flex justify-between'>
             <div className='h-full flex justify-center items-center ml-4 cursor-pointer'>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary fill-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
