@@ -9,7 +9,7 @@ function Dashboard() {
             <h2 className='mt-4 text-lg font-semibold opacity-70'>Dashboard Overview</h2>
         </div>
         <div className='w-full flex px-4'>
-            <div className='w-auto flex'>
+            <div className='w-auto flex md:flex-row flex-col'>
                 <DBCards />
             </div>
         </div>
