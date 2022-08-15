@@ -19,4 +19,4 @@ export const GlobalHelperProvider = ({ children }) => {
     )
 }
 
-export default GlobalHelperProvider
+export default GlobalHelperContext
