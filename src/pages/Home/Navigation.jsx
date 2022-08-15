@@ -19,7 +19,7 @@ function Navigation() {
                     <Links />
                 </div>
                 <div className='flex w-full'>
-                    <button className='w-auto h-8 flex items-center px-4 ml-16 mb-8 text-white rounded-md bg-primary hover:bg-secondary'>
+                    <button className='w-auto h-8 flex items-center px-4 md:pl-20 mb-8 text-white rounded-md bg-primary hover:bg-secondary'>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                             <path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
                         </svg>
