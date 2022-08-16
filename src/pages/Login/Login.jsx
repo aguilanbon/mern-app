@@ -32,7 +32,7 @@ function Login() {
                             <a href="/" className='text-sm md:ml-2 font-semibold text-primary hover:underline'>Create an account</a>
                         </div>
                     </div>
-                    <div className='flex'>
+                    <div className='flex md:mt-0 mt-10'>
                         <Footer />
                     </div>
                 </div>
