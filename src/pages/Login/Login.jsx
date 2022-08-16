@@ -27,9 +27,9 @@ function Login() {
                                 <input type="submit" value="Login" className='bg-primary hover:bg-secondary ease-in-out duration-200 hover:scale-105 text-white p-3 rounded-full font-semibold cursor-pointer' />
                             </div>
                         </form>
-                        <div className='flex w-full items-center'>
+                        <div className='flex w-full items-center justify-center md:flex-row flex-col'>
                             <h3 className='text-sm'>Not registered yet?</h3>
-                            <a href="/" className='text-sm ml-2 font-semibold text-primary hover:underline'>Create an account</a>
+                            <a href="/" className='text-sm md:ml-2 font-semibold text-primary hover:underline'>Create an account</a>
                         </div>
                     </div>
                     <div className='flex'>
