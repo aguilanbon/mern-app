@@ -1,4 +1,5 @@
 import React from 'react'
+import ClientsContainer from './ClientsContainer'
 import DBCards from './DBCards'
 
 function Dashboard() {
@@ -12,6 +13,11 @@ function Dashboard() {
             <div className='w-full flex md:flex-row flex-col'>
                 <DBCards />
             </div>
+        </div>
+        <div className='w-full h-auto flex flex-col mt-8 px-4'>
+          <div className='w-full flex md:flex-row flex-col'>
+            <ClientsContainer />
+          </div>
         </div>
     </div>
   )
