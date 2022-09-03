@@ -7,9 +7,9 @@ function DBCards() {
         <div className='w-full flex'>
             <div className='w-3/4 flex flex-col p-2 text-gray-800'>
                 <div className='h-full mb-2 flex flex-col justify-between'>
-                    <h1 className='font-semibold '>Employees / Personnel</h1>
+                    <h1 className='font-semibold '>Clients</h1>
                     <h1 className='font-bold md:text-5xl'>93</h1>
-                    <h1 className='md:text-sm opacity-70'>Active personnel</h1>
+                    <h1 className='md:text-sm opacity-70'>Active Clients</h1>
                 </div>
             </div>
             <div className='h-full flex items-center justify-end'>
