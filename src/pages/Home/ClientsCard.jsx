@@ -2,8 +2,8 @@ import React from 'react'
 
 function ClientsCard() {
   return (
-    <div className='lg:w-full w-auto h-auto'>
-        <div className='w-full flex items-center rounded-sm border bg-slate-300 text-primary h-14 p-2 text-sm'>
+    <div className='lg:w-full w-auto h-auto cursor-pointer'>
+        <div className='w-full flex items-center rounded-sm border bg-slate-300 hover:bg-slate-200 text-primary h-14 p-2 text-sm'>
             <div className='flex md:mr-8 mr-4'>
                 <img src="./aloy.jpg" alt="" className='w-12 h-12 rounded-full object-cover' />
             </div>
