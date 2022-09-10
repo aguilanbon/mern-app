@@ -57,6 +57,24 @@ function DBCards() {
             </div>
         </div>
     </div>
+    <div className='xl:w-80 sm:w-auto w-full h-40 px-4 flex rounded-md border shadow-lg lg:mr-10 hover:-translate-x-1 hover:-translate-y-1 cursor-pointer transition-all'>
+        <div className='w-full flex'>
+            <div className='w-3/4 flex flex-col p-2 text-gray-800'>
+                <div className='h-full mb-2 flex flex-col justify-between'>
+                    <h1 className='font-semibold '>Alerts</h1>
+                    <h1 className='font-bold md:text-5xl'>4</h1>
+                    <h1 className='md:text-sm opacity-70'>Total alerts</h1>
+                </div>
+            </div>
+            <div className='h-full flex items-center justify-end'>
+                <div className='p-3 rounded-full bg-yellow-600 bg-opacity-20'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="lg:h-14 lg:w-14 h-8 w-8 text-yellow-600">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
     </>
   )
 }
