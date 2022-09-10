@@ -3,7 +3,7 @@ import React from 'react'
 function DBCards() {
   return (
     <>
-    <div className='xl:w-80 sm:w-auto w-full h-40 px-4 flex rounded-md border shadow-lg lg:mr-10 hover:-translate-x-1 hover:-translate-y-1 cursor-pointer transition-all'>
+    <div className='xl:min-w-80 w-auto h-40 px-4 flex rounded-md border shadow-lg  mr-4 hover:-translate-x-1 hover:-translate-y-1 cursor-pointer transition-all'>
         <div className='w-full flex'>
             <div className='w-3/4 flex flex-col p-2 text-gray-800'>
                 <div className='h-full mb-2 flex flex-col justify-between'>
@@ -21,7 +21,7 @@ function DBCards() {
             </div>
         </div>
     </div>
-    <div className='xl:w-80 sm:w-auto w-full h-40 px-4 flex rounded-md border shadow-lg lg:mr-10 hover:-translate-x-1 hover:-translate-y-1 cursor-pointer transition-all'>
+    <div className='xl:min-w-80 w-auto h-40 px-4 flex rounded-md border shadow-lg  mr-4 hover:-translate-x-1 hover:-translate-y-1 cursor-pointer transition-all'>
         <div className='w-full flex'>
             <div className='w-3/4 flex flex-col p-2 text-gray-800'>
                 <div className='h-full mb-2 flex flex-col justify-between'>
@@ -39,7 +39,7 @@ function DBCards() {
             </div>
         </div>
     </div>
-    <div className='xl:w-80 sm:w-auto w-full h-40 px-4 flex rounded-md border shadow-lg lg:mr-10 hover:-translate-x-1 hover:-translate-y-1 cursor-pointer transition-all'>
+    <div className='xl:min-w-80 w-auto h-40 px-4 flex rounded-md border shadow-lg  mr-4 hover:-translate-x-1 hover:-translate-y-1 cursor-pointer transition-all'>
         <div className='w-full flex'>
             <div className='w-3/4 flex flex-col p-2 text-gray-800'>
                 <div className='h-full mb-2 flex flex-col justify-between'>
@@ -57,7 +57,7 @@ function DBCards() {
             </div>
         </div>
     </div>
-    <div className='xl:w-80 sm:w-auto w-full h-40 px-4 flex rounded-md border shadow-lg lg:mr-10 hover:-translate-x-1 hover:-translate-y-1 cursor-pointer transition-all'>
+    <div className='xl:min-w-80 w-auto h-40 px-4 flex rounded-md border shadow-lg  mr-4 hover:-translate-x-1 hover:-translate-y-1 cursor-pointer transition-all'>
         <div className='w-full flex'>
             <div className='w-3/4 flex flex-col p-2 text-gray-800'>
                 <div className='h-full mb-2 flex flex-col justify-between'>
