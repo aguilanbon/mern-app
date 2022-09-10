@@ -21,7 +21,7 @@ function Home() {
         window.addEventListener('resize', updateWidth)
 
         if(width < 768) setSideNavOpen(false)
-    },[])
+    },[setSideNavOpen, width])
 
     return (
         <div className='w-full min-h-screen flex'>
